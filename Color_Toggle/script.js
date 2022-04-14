@@ -19,25 +19,25 @@ hamburger.addEventListener("mouseover", function() {
 //Wijzigen achtergrondkleur
 
 homeBackground.addEventListener("click", function (){
-    background.classList.add("home");
+    background.className = "home";
     dropDownMenu.classList.remove("visible");
     textBackground.innerHTML = "This is the homepage";
 });
 
 purpleBackground.addEventListener("click", function (){
-    background.classList.add("purple");
+    background.className = "purple";
     dropDownMenu.classList.remove("visible");
     textBackground.innerHTML = "This background is purple";
 });
 
 orangeBackground.addEventListener("click", function (){
-    background.classList.add("orange");
+    background.className = "orange";
     dropDownMenu.classList.remove("visible");
     textBackground.innerHTML = "This background is orange";
 });
 
 greenBackground.addEventListener("click", function (){
-    background.classList.add("green");
+    background.className = "green";
     dropDownMenu.classList.remove("visible");
     textBackground.innerHTML = "This background is green";
 });
