@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* OPMAAK */
+
+body {
+    background: rgb(214, 103, 103);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hamburger:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+ul {
+    transition: all 2s ease-in-out;
+}
+
+ul li {
+    width: 400px;
+    height: 50px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.radio-btn {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* MENU */
+
+.ul-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    width: 300px;
+    line-height: 50px;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+/* COLORS MENU*/
+.body-background {
+    background: white;
+}
+
+.home {
+    background: rgb(214, 103, 103);
+}
+    
+.purple {
+    background: purple;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
